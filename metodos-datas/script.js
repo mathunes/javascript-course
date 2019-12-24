@@ -29,3 +29,6 @@ console.log(data.getDate());
 
 //Retorna a hora
 console.log(data.getHours());
+
+//Retorna os minutos
+console.log(data.getMinutes());
