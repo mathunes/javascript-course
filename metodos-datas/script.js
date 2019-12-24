@@ -32,3 +32,6 @@ console.log(data.getHours());
 
 //Retorna os minutos
 console.log(data.getMinutes());
+
+//Retorna os segundos
+console.log(data.getSeconds());
