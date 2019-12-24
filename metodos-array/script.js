@@ -62,3 +62,9 @@ lista2 = lista.find(function(item) {
     return (item < 3);
 });
 console.log(lista2);
+
+//Retorna a posicao do primeiro item que satisfaz determinada condicao
+lista2 = lista.findIndex(function(item) {
+    return (item < 3);
+});
+console.log(lista2);
