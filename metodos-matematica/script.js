@@ -11,3 +11,6 @@ console.log(Math.ceil(valor));
 
 //Retorna o modulo do numero
 console.log(Math.abs(valor * -1));
+
+//Retorna o menor valor
+console.log(Math.min(1, 2, 3));
