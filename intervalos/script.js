@@ -7,4 +7,4 @@ function showTime() {
     document.querySelector("#time").innerHTML = hour+':'+minutes+':'+seconds;
 }
 
-showTime();
+let interval = setInterval(showTime, 1000);
