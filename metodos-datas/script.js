@@ -23,3 +23,6 @@ console.log(data.getMonth());
 
 //Retorna o dia da semana - de 0 a 6
 console.log(data.getDay());
+
+//Retorna o dia atual
+console.log(data.getDate());
