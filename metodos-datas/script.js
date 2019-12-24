@@ -20,3 +20,6 @@ console.log(data.getFullYear());
 
 //Retorna o mes - o mes inicia em 0
 console.log(data.getMonth());
+
+//Retorna o dia da semana - de 0 a 6
+console.log(data.getDay());
