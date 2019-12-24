@@ -36,17 +36,23 @@ lista2 = [];
 //Gravar um novo array com o dobro dos itens
 lista2 = lista.map(function(item) {
     return item*2;
-})
+});
 console.log(lista2);
 
 //Filtrar itens do array - nesse caso retornando apenas itens pares
 lista2 = lista.filter(function(item) {
     return (item % 2) == 0;
-})
+});
 console.log(lista2);
 
 //Verificar se todos itens do array atendem a determinada condicao - retorna true ou false
 lista2 = lista.every(function(item) {
     return (item < 3);
-})
+});
+console.log(lista2);
+
+//Verificar se pelo menos um item do array atende a determinada condicao
+lista2 = lista.some(function(item) {
+    return (item < 3);
+});
 console.log(lista2);
