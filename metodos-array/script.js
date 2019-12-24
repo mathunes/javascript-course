@@ -56,3 +56,9 @@ lista2 = lista.some(function(item) {
     return (item < 3);
 });
 console.log(lista2);
+
+//Retorna o primeiro item que satisfaz determinada condicao
+lista2 = lista.find(function(item) {
+    return (item < 3);
+});
+console.log(lista2);
