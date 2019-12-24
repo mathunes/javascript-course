@@ -14,3 +14,6 @@ console.log(Math.abs(valor * -1));
 
 //Retorna o menor valor
 console.log(Math.min(1, 2, 3));
+
+//Retorna o maior valor
+console.log(Math.max(1, 2, 3));
