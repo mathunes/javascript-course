@@ -8,3 +8,6 @@ console.log(Math.floor(valor));
 
 //Retorna o teto do numero
 console.log(Math.ceil(valor));
+
+//Retorna o modulo do numero
+console.log(Math.abs(valor * -1));
