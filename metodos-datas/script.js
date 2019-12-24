@@ -26,3 +26,6 @@ console.log(data.getDay());
 
 //Retorna o dia atual
 console.log(data.getDate());
+
+//Retorna a hora
+console.log(data.getHours());
