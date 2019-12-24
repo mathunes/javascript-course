@@ -17,3 +17,6 @@ console.log(data2);
 
 //Retorna o ano
 console.log(data.getFullYear());
+
+//Retorna o mes - o mes inicia em 0
+console.log(data.getMonth());
