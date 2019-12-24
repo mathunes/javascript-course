@@ -35,3 +35,5 @@ console.log(data.getMinutes());
 
 //Retorna os segundos
 console.log(data.getSeconds());
+
+//As funcoes gets possuem seus respectivos sets para passar valores
