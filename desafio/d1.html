@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso JavaScript</title>
+
+    <style>
+        #areaBoxes {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <button id="createBox">Criar nova caixa</button>
+
+    <div id="areaBoxes"></div>
+
+    <script>
+        
+        document.querySelector('#createBox').onclick = function createBox() {
+            var box = document.createElement('div');
+            box.style.width = '100px';
+            box.style.height = '100px';
+            box.style.backgroundColor = '#f00';
+            box.style.margin = '10px';
+
+            document.querySelector('#areaBoxes').appendChild(box);
+        }
+
+    </script>
+</body>
+</html>
