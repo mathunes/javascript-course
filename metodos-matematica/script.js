@@ -18,5 +18,8 @@ console.log(Math.min(1, 2, 3));
 //Retorna o maior valor
 console.log(Math.max(1, 2, 3));
 
-//Retorna numero aleatorio entre 0 e 1
+//Retorna numeros aleatorios entre 0 e 1
 console.log(Math.random());
+
+//Retorna numeros aleatorios entre 0 e 99
+console.log(Math.floor(Math.random() * 100));
