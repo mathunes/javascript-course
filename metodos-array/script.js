@@ -68,3 +68,7 @@ lista2 = lista.findIndex(function(item) {
     return (item < 3);
 });
 console.log(lista2);
+
+//Diz se o item esta na lista ou nao
+lista2 = lista.includes('oi');
+console.log(lista2);
