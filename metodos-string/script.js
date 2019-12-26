@@ -38,3 +38,6 @@ console.log(nome.split(' '));
 
 //Diz de palavra esta na string
 console.log(nome.includes('oi'));
+
+//Repetir letra x vezes
+console.log('x'.repeat(100));
