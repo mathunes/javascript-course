@@ -17,3 +17,7 @@ console.log(pessoa.nomeCompleto());
 let {nome:pessoaNome = 'Teste', sobrenome, idade} = pessoa;
 
 console.log(pessoaNome);
+
+let {facebook, github} = pessoa.social;
+
+console.log(github);
