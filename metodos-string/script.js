@@ -35,3 +35,6 @@ console.log(nome.charAt(8));
 
 //Transformar string em array
 console.log(nome.split(' '));
+
+//Diz de palavra esta na string
+console.log(nome.includes('oi'));
