@@ -39,5 +39,11 @@ console.log(nome.split(' '));
 //Diz de palavra esta na string
 console.log(nome.includes('oi'));
 
-//Repetir letra x vezes
+//Repete letra x vezes
 console.log('x'.repeat(100));
+
+//Preenche string no final com um caracter ate atingir determinada quantidade
+console.log('x'.padEnd(9, '*'));
+
+//Preenche string no inicio com um caracter ate atingir determinada quantidade
+console.log('x'.padStart(9, '*'));
