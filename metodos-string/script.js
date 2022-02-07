@@ -19,10 +19,10 @@ console.log(nome.substr(0, 10));
 console.log(nome.replace('Matheus', 'Felipe'));
 
 //Colocar texto maisculo
-console.log(nome.toUpperCase(nome));
+console.log(nome.toUpperCase());
 
 //Colocar texto minusculo
-console.log(nome.toLowerCase(nome));
+console.log(nome.toLowerCase());
 
 //Concater
 console.log(nome.concat(' tem 20 anos'));
